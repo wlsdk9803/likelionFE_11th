@@ -50,7 +50,6 @@ function App() {
       <button onClick={() => onPlay()}>Play!</button>
       {isPlay ? (
         <>
-          <br />
           <div>
             You choose: {mypick}, the machine choose: {randomNumber}
           </div>
